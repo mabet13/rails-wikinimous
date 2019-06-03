@@ -1,0 +1,10 @@
+<h1>Article showing</h1>
+<div class="box">
+  <%= @article.title %><br>
+  <%= @article.content %><br>
+</div>
+<br>
+<%= link_to "Modify this article", edit_article_path(@article) %>
+<br>
+<%= link_to "Articles page", "/articles" %>
+
